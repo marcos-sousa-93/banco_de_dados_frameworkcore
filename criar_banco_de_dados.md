@@ -39,7 +39,7 @@ public class Pessoa {
 <pre>
     <code>
 public class CadastroPessoaContext : DbContext {
-    public DbSet<Pessoa> Pessoas { get; set; }
+    public DbSet&#60Pessoa&#62 Pessoas { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=CadastroPessoaDB;Trusted_Connection=True;");
     }
